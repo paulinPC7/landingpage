@@ -85,9 +85,21 @@ body {
 
  footer{
   text-align: center;
-  font-size: 16px;
-  font-weight: 200;
-  padding: 50px;
+  font-size: 16px;@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body {
+  font-size: 26px;
+  background: #ffffff;
+  font-family:'Times New Roman', Times, serif;
+ }
+
+ .main{
+  max-width: 1500px;
+…  opacity: 0.8;
+  transition: 0.5s;
+}
+
+
 }
 
 #lucas{
@@ -106,10 +118,10 @@ body {
 
   
   body {
-  background-image: url('https://media4.giphy.com/media/x4kEDzV83oNW0/giphy.gif');
-  background-position: center center;
+  background-color: #f1f1f1;
+
+  background-position: center ;
   background-repeat: no-repeat;
-  background-color: #e5e5e5;
+  background-color: #fff;
 
 }
-
