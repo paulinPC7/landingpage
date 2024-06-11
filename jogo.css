@@ -14,7 +14,7 @@
 }
 
 body {
-    background: linear-gradient(#000000, #1b1a33);
+    background: linear-gradient(#000000, #000000);
     overflow-y: hidden;
 }
 
@@ -51,12 +51,27 @@ nav ul li a {
 nav ul li a:hover {
     color: red;
 }
+.video-container {
+    position: relative;
+    width: 60%;
+    padding-bottom: 56.25%; /* proporção 16:9 (dividindo 9 por 16) */
+    height: 0;
+}
+.video-container iframe {
+    position: absolute;
+    margin-left: 10px;
+    top: 0;
+    left: -60px;
+    width: 80%;
+    height: 45%;
+}
 
 section{
     display: flex;
     position: relative;
     min-height: 100vh;
     align-items: center;
+    margin-top: -600px;
 }
 
 .section__text {
@@ -66,7 +81,7 @@ section{
 }
 
 .section__text h1 {
-    font-size: 5rem;
+    font-size: 100px;
     margin-top: px;
     text-shadow: 3px 0 rgb(245, 6, 6)0)
         -3px 0 rgb(255, 0, 0)
@@ -78,7 +93,7 @@ section{
         -2px 2px rgb(0, 0, 0);
 }
 .section__text p{
-    font-size: 15px;
+    font-size: 20px;
     margin: 30px 0;
     font-weight: 400;
     text-align: left;
@@ -110,9 +125,9 @@ section{
 .section__img{
     position: absolute;
     right: -50px;
-    bottom: -40px;
+    bottom: -30px;
 }
 .section__img img{
-    width: 600px;
-    margin-top: 10px;
+    width: 500px;
+    margin-top: 100px;
 }
